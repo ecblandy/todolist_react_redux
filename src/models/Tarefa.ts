@@ -9,8 +9,8 @@ class Tarefa {
     titulo: string,
     prioridade: enums.Prioridade,
     status: enums.Status,
-    id: number,
-    descricao: string
+    descricao: string,
+    id: number
   ) {
     this.titulo = titulo
     this.prioridade = prioridade
